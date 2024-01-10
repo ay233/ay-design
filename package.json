@@ -1,6 +1,6 @@
 {
-  "name": "@ks-kdocs-innovate/components",
-  "version": "0.0.8",
+  "name": "ay-design",
+  "version": "0.0.1",
   "license": "MIT",
   "type": "module",
   "main": "./dist/innovativeAppAssembly.cjs",
@@ -65,7 +65,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://ksogit.kingsoft.net/apptable/innovate_fe"
+    "url": "git@github.com:ay233/ay-design.git"
   },
   "packageManager": "yarn@4.0.2"
 }
