@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    // 生成的模块形式
+    "module": "esnext",
+    // ts文件最终转化目标
+    "target": "es5",
+    "lib": [
+      "es5",
+      "es6",
+      "dom",
+      "es2016"
+    ],
+    // 在 .tsx 中支持 JSX ：React 或 Preserve ，
+    "jsx": "react",
+    // 编译删除注释
+    "removeComments": false,
+    // 是否引入npm包tslib中的辅助函数,__extends等 不使用避免增加大小，应按需加载
+    "importHelpers": true,
+    // 默认false,是否检测定义了但是没使用的变量
+    "noUnusedLocals": true,
+    // 用于检查是否有在函数体中没有使用的参数
+    "noUnusedParameters": false,
+    // 用于检查函数是否有返回值，设为true后，如果函数没有返回值则会提示
+    "noImplicitReturns": true,
+    // 用于检查switch中是否有case没有使用break跳出switch
+    "noFallthroughCasesInSwitch": true,
+    // 通过为导入内容创建命名空间，实现CommonJS和ES模块之间的互操作性 true 会增加兼容代码
+    "esModuleInterop": true,
+    // 用来指定允许从没有默认导出的模块中默认导入, 使用默认import需要引入的模块是es模块，否则需要import * as
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+  },
+  "include": [
+    "src",
+    "packages",
+    // "node_modules/@ckeditor/**/*"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+.innovative-app-rich-editor {
+  width: 100%;
+  height: 100%;
+
+  .ck-editor {
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+
+    .ck-editor__main {
+      flex: 1;
+      height: 0;
+
+      i {
+        font-style: italic !important;
+      }
+
+      .ck-editor__editable {
+        height: 100%;
+      }
+    }
+    .chat-flow-rich-editor-tool-button {
+      padding: 0 !important;
+      min-width: unset !important;
+      min-height: unset !important;
+    }
+  }
+}
+
+//去除水印
+.ck.ck-balloon-panel.ck-powered-by-balloon {
+  display: none !important;
+}
